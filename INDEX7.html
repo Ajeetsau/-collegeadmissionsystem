@@ -1,0 +1,143 @@
+<html><head>
+     
+<style>
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a.cd {
+    float: left;
+    width: 7.9em;
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+     text-align: center;
+}
+
+a.cd :hover {background-color: #ff3300;}
+
+li {display: inline;}
+    
+
+    form {
+        text-align:center;
+    border: 5px solid black;
+    
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+;
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+   
+    width: 20%;
+}
+label{
+    min-width: 100px;
+    display: inline-block;
+}
+
+
+
+.imgcontainer {
+  
+    margin: 24px 45% 12px 36%;
+    width: 30%;
+}
+#11
+    {
+        text-align: center;
+    }
+img.avatar {image-align: center;
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://www.magd.cam.ac.uk/sites/default/files/styles/1302x600/public/2017-09/magdalene_college_library.jpg?itok=1v6BgUME);
+    }
+    #am{
+        width :40%;
+        align-items: center;
+         
+ background-color: linen;
+    left: 0;
+    right: 0;
+    
+
+
+    margin: auto;
+    }
+/* Change styles for span and cancel button on extra small screens */
+
+
+
+
+
+   
+    
+</style>
+    </head>
+
+    
+<ul>
+     <li><a class="cd" href="INDEX.html">Home</a></li>
+  <li><a class="cd" href="INDEX1.html">About us</a></li>
+  <li><a class="cd" href="INDEX2.html">Academics</a></li>
+  <li><a class="cd" href="INDEX3.html">Fee</a></li>
+  <li><a class="cd" href="INDEX4.html">Admissions</a></li>
+  <li><a class="cd" href="INDEX5.html" >Career</a></li>
+    <li><a class="cd" href="INDEX6.html" >Register</a></li>
+    <li><a class="cd" href="INDEX7.html" >Login</a></li>
+    <li><a class="cd" href="INDEX8.html" >Admin Login</a></li>
+    <li><a class="cd" href="INDEX9.html" >Admin register</a></li>
+</ul>
+    <div id='am'>
+
+
+<form action="php2.php" method="POST">
+  <div class="imgcontainer">
+      <h2>Student Login </h2>
+    <img src="https://image.flaticon.com/icons/png/512/194/194931.png" alt="Avatar" class="avatar" >
+  </div>
+
+  <div class="container">
+    <label><b>Application id</b></label>
+    <input type="text" placeholder="Enter application id" id="aid" name="aid" required><br>
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="psw" name="psw" required><br>
+         <input type="checkbox" checked="checked"> Remember me<br>
+    <button type="submit" value="submit">Login</button>
+   
+  </div>
+
+  
+</form>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,180 @@
+
+
+
+
+
+
+
+
+
+
+<html>
+
+    <head>
+<style>
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    top:0;
+    list-style-type: none;
+}
+
+a.cd {
+
+    float: left; 
+     width: 7.9em;
+    text-decoration: none;
+    color: white;
+    background-color:black;
+     padding: 0.2em 0.6em; 
+    border-right: 1px solid white;
+   
+}
+
+a.cd:hover {background-color: #ff3300;}
+
+li {display: inline;}
+    
+
+    form {
+        text-align: center;
+        border:3px solid black;
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor:pointer;
+    border: none;
+ 
+    width: 20%;
+}
+label{
+min-width:50px;
+display: inline-block;
+}
+.cancelation{
+    width:auto;
+    padding:10px 18px;
+    
+
+}
+
+
+.imgcontainer {
+   text-align: center;
+    margin: 24px 45% 12px 36%;
+    width: 30%;
+}
+h1{
+    color:black;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 44px;
+    margin: 0;
+    padding: 0;
+
+}
+
+ 
+img.avatar {image-align: center;
+    width: 40%;
+    border-radius:50%;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    margin-top: 0;
+
+}
+
+    body{    
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://kinsta.com/wp-content/uploads/2019/08/jpg-vs-jpeg.jpg);
+    }
+.container {
+    text-align:16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+    #am{
+        width :40%;
+        align-items: center;
+         
+ background-color: lightpink;
+    left: 0;
+    right: 0;
+    box-sizing: content-box;
+    margin: auto;
+   
+    }
+
+/* Change styles for span and cancel button on extra small screens */
+
+
+</style>
+    </head>
+
+
+
+
+      
+<ul>
+     <li><a class="cd" href="INDEX.html">Home</a></li>
+  <li><a class="cd" href="INDEX1.html">About us</a></li>
+  <li><a class="cd" href="INDEX2.html">Academics</a></li>
+  <li><a class="cd" href="INDEX3.html">Fee</a></li>
+  <li><a class="cd" href="INDEX4.html">Admissions</a></li>
+  <li><a class="cd" href="INDEX5.html" >Career</a></li>
+    <li><a class="cd" href="INDEX6.html" >Register</a></li>
+    <li><a class="cd" href="INDEX7.html" >Login</a></li>
+    <li><a class="cd" href="INDEX8.html" >Admin Login</a></li>
+    <li><a class="cd" href="INDEX9.html" >Admin register</a></li>
+</ul>
+    <div id='am'>
+  <body>
+      <form action="php5.php" method="POST">
+<div class="imgcontainer">
+<h2> Admin Login </h2>
+    <img src=https://cdn4.iconfinder.com/data/icons/general14/png/256/administrator.png alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Admin Id</b></label>
+    <input type="text" placeholder="Enter Admin id"  id="Id" name="Id"  required><br>
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="pswk" name="pswk"  required><br>
+         
+
+
+        
+         
+        <button type="submit" value="submit" >Login</button>
+      
+  </div>
+  </form>  
+
+</div>
+
+
+
+
+
+</body>
+</html>

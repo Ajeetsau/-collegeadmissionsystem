@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+   <style>
+
+ul {
+   
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'josefin sans',sans-serif;
+}
+header{
+    width: 100%;  height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(https://image.freepik.com/free-photo/learner-lesson_1098-14155.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%; height: 15vh;
+    background:rgba(0,0,0,0.2);
+    color:white; display: flex; justify-content: space-between;
+ align-items: center; text-transform: uppercase;
+}
+nav .logo{
+    width: 25%; text-align: center;
+    
+}
+nav .menu{
+    width: 40%;
+    display: flex; justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none; color:white;
+    font-weight: bold;
+}
+
+nav .menu a:first-child{
+    color: #00b894;
+}
+
+
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; color: white;
+}
+section{
+
+}
+section h3{
+    font-size: 35px; font-weight: 200; letter-spacing:3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+ margin: 30px 0 20px 0;
+    font-size:55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+  
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding:  12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+
+}
+section .btnone{
+    background: #fff;
+    color:#000;
+}
+.btnone:hover{
+    background: #00b894;
+    color:white;
+}
+
+
+
+
+section .btntwo{
+    background: #00b894;
+    color:white;
+}
+.btntwo:hover{
+    background: #fff;
+    color:#000
+}
+
+
+
+    .change_content:after{
+        content: '';
+        animation: changetext 10s infinite linear;
+        color:#00b894;
+    }
+    @keyframes changetext{
+        0%{content:"College";}
+        20%{content:"register";}
+        35%{content:"Admin";}
+        60%{content:"Admission";}
+        80%{content:"Students";}
+        100%{content:"Academics";}
+        
+    }
+
+
+   </style>
+
+
+
+
+</head>
+  <body>
+      <header>
+        
+
+
+
+
+          <nav>
+
+    
+        <div class="logo"><h1 class="">COLLEGE ADMISSION SYSTEM</h1></div>
+    
+ 
+<div class="menu">
+  <a href="INDEX.html">Home</a>
+  <a  href="INDEX1.html">About us</a>
+  <a href="INDEX2.html">Academics</a>
+  <a  href="INDEX8.html" >Admin Login</a></li>
+   
+   
+    </div>
+          </nav>
+
+    <main>
+        <section>
+            <h3>GLA UNIVERSITY</h3>
+            <h1> DO COME & VISIT<span class="change_content"></span></h1>
+            <p>"do come and visit again </p>
+            <a href="INDEX6.html"class="btnone">register here</a>
+            <a href="INDEX7.html" class="btntwo">login here</a>
+        </section>
+    </main>
+
+
+
+
+
+</nav>
+
+</header>
+
+</body>
+</html>

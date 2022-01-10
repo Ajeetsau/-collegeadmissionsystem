@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        ul {
+            float: left;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        
+        a.cd {
+            float: left;
+            width: 7.9em;
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 0.2em 0.6em;
+            border-right: 1px solid white;
+        } 
+        
+        a.cd:hover {background-color: #ff3300;}
+        
+        li {display: inline;}
+        div{
+                    background-color: lightcyan;
+                 height: auto;
+                }
+            /* Full-width input fields */
+        input[type=text], input[type=password],input[type=Number],input[type=date] {
+            width: 30%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            height:10px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+        /* Set a style for all buttons */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 25%;
+        }
+        
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+            padding: 14px 20px;
+            background-color: #f44336;
+            width=25%;
+        }
+            body{
+                background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(http://architizer-prod.imgix.net/media/1435764571542The_Summit_Greenroof.jpg?q=60&auto=format,compress&cs=strip&w=1680);
+            }
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn,.signupbtn {
+            float: left;
+            width: 22%;
+        }
+        
+        /* Add padding to container elements */
+        .container {width:100%;
+            
+            padding: 16px;
+        }
+        
+        /* Clear floats */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+            height:30px;
+            }
+        
+        /* Change styles for cancel button and signup button on extra small screens */
+        @media screen and (max-width: 300px) {
+            .cancelbtn, .signupbtn {
+               width: 100%;
+            }
+        }
+        </style>
+        
+        <title>
+            Register</title>
+	  </head>
+<body>
+   
+   
+<ul>
+    <li><a class="cd" href="INDEX.html">Home</a></li>
+  <li><a class="cd" href="INDEX1.html">About us</a></li>
+  <li><a class="cd" href="INDEX2.html">Academics</a></li>
+  <li><a class="cd" href="INDEX3.html">Fee</a></li>
+  <li><a class="cd" href="INDEX4.html">Admissions</a></li>
+  <li><a class="cd" href="INDEX5.html" >Career</a></li>
+    <li><a class="cd" href="INDEX6.html" >Register</a></li>
+    <li><a class="cd" href="INDEX7.html" >Login</a></li>
+    <li><a class="cd" href="INDEX8.html" >Admin Login</a></li>
+    <li><a class="cd" href="INDEX9.html" >Admin register</a></li>
+</ul>
+    
+    
+   
+    <h1 style="color:bisque;text-align: center;">for Admissions</h1>
+
+
+
+    <body>
+
+
+
+<form action="details_entry.php" method="POST" style="border:1px solid #ccc">
+  <div class="container">
+      <fieldset>
+      <legend>Personal details</legend>
+    <label><b>Name  </b> </label>
+    <input type="text" placeholder="Enter name" name="sname"  required ><br>
+     <label><b>Father's Name</b></label>
+
+
+       <input type="text" placeholder="Enter Name" name="fname"  required ><br>
+      <label><b>Mother's Name</b></label>
+
+
+    <input type="text" placeholder="Enter Name" name="mname"  required ><br>
+      <label><b>Date of Birth</b></label>
+
+
+    <input type="date" placeholder="Enter DOB in YYYY/MM/DD" name="DOB" required><br>
+        <label><b>Select Gender</b></label>
+          <select name="gender">
+
+
+        <option default>Select Gender</option>
+    <option value="M">Male</option>
+    <option value="F">Female</option>
+
+
+  </select><br>
+      <label><b>Address</b></label>
+
+    <input type="text" placeholder="Enter Gaurdian Address" name="address" required><br>
+          </fieldset>
+      <fieldset>
+          <legend>Account details</legend>
+      <label><b>Application No.</b></label>
+    <input type="text" placeholder="Enter Application no(10 digit)" pattern="[0-9]{10}" name="applid" required><br>
+<label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required><br>
+
+    
+          </fieldset>
+      <fieldset>
+          <legend>Academic details</legend>
+    <label><b>Course opted</b></label>
+    <select name="course">
+        <option value="Def">Select Course</option>
+    <option value="CSE">Computer Science & Engineering</option>
+    <option value="Civil Engineering">Civil Engineering</option>
+    <option value="Chemical Engineering">Chemical Engineering</option>
+    <option value="Electronics Engineering">Electronics Engineering</option>
+    <option value="Mechanical Engineering">Mechanical Engineering</option>
+    <option value="ElectricalEngineering">Electrical Engineering</option>
+  </select>
+      <br>
+      <label><b>10th Marks</b></label>
+    <input type="text" placeholder="Enter Board Marks" name="marks1" required pattern="[0-9]{3}"><br>
+       <label><b>12th Marks</b></label>
+    <input type="text" placeholder="Enter Intermediate Marks" name="marks2" required pattern="[0-9]{3}"><br>
+       <label><b>Entrance Exam marks</b></label>
+    <input type="text" placeholder="Enter marks" name="jee" required pattern="[0-9]{3}"><br>
+      </fieldset>
+      <br>
+      <input type="checkbox" checked="checked"> Remember me
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+<div class="clearfix">
+      <button type="button" class="cancelbtn" >Cancel</button>
+
+      <tr>
+          <td>
+         
+     <td><input type="submit" name="save"  value="Submit"></td>
+
+     </tr>
+         
+    </div>
+      
+  </div>
+</form>
+    
+ 
+    </body>
+</html>
