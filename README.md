@@ -5,14 +5,12 @@ University Admission System
 
  ## Team Members:-
 
-⦁	Mansi kumari (Btech- CSE , Sec- I )
-⦁	(University Roll No- 191500442)
+
 
 ⦁	Ajit Shukla (Btech- CSE , Sec- G)
 ⦁	(University Roll No-191500066)
 
-⦁	Jatin Sharma (Btech- CSE , Sec- G)
-⦁	(University Roll No-191500366)
+⦁	
 
 
 ## Submitted to-
